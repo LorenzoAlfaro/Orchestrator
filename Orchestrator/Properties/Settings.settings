@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Orchestrator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StartTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6:22 PM</Value>
+    </Setting>
+    <Setting Name="callDuration" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="callType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FromMail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lorenzo@whirlwindsoftware.com</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">fr33z3r!</Value>
+    </Setting>
+    <Setting Name="Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mymail.brinkster.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
