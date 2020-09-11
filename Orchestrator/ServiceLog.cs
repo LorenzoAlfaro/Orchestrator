@@ -6,6 +6,7 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
+using PK.LogParsing;
 
 namespace Orchestrator
 {
@@ -100,7 +101,10 @@ namespace Orchestrator
             smtp.UseDefaultCredentials = true;
             smtp.Credentials = NetworkCred;
             smtp.Port = 25;
-            smtp.Send(mailMessage); //sending Email  
+            //smtp.Send(mailMessage); //sending Email  
+
+            LogParsing.openOBS("","");
+            LogParsing.ExecuteCommand(@"C:\Users\Lorenzo\Desktop\openOBS.bat");
         }
 
         #endregion

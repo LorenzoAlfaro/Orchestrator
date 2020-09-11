@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="StartTime" Type="System.String" Scope="User">
-      <Value Profile="(Default)">6:22 PM</Value>
+      <Value Profile="(Default)">10:50 AM</Value>
     </Setting>
     <Setting Name="callDuration" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">2</Value>
