@@ -25,7 +25,7 @@ namespace Orchestrator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10:50 AM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("11:04 AM")]
         public string StartTime {
             get {
                 return ((string)(this["StartTime"]));

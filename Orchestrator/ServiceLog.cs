@@ -101,10 +101,10 @@ namespace Orchestrator
             smtp.UseDefaultCredentials = true;
             smtp.Credentials = NetworkCred;
             smtp.Port = 25;
-            //smtp.Send(mailMessage); //sending Email  
+            smtp.Send(mailMessage); //sending Email  
 
-            LogParsing.openOBS("","");
-            LogParsing.ExecuteCommand(@"C:\Users\Lorenzo\Desktop\openOBS.bat");
+            //LogParsing.openOBS("","");
+            //LogParsing.ExecuteCommand(@"C:\Users\Lorenzo\Desktop\openOBS.bat");
         }
 
         #endregion
